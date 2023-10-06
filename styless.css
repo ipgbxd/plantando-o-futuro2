@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin-top: 10%;
+    margin-right: 6%;
+    width: 100%;
+    text-align: center;
+    color: #2B1B10;
+}
+
+.paragrafo {
+    width: 100%;
+   margin-top: 50%;
+   
+}
+
+.palavra {
+    color: #2B1B10;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 4rem;
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #9A031E;
+    color: #2B1B10;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.about-us,
+.projects,
+.contact {
+    text-align: center;
+    padding: 2rem;
+}
+
+.projects .project {
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.mapas ul {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+
+.bloco-1 {
+    background-color: #9A031E;
+    border: 2em;
+    padding: 5px;
+}
+
+.bloco-2 {
+    background-color: #4B7241;
+    border: 2em;
+    padding: 5px;
+}
+
+.bloco-3 {
+    background-color: #FBBA00;
+    border: 2em;
+    padding: 5px;
+}
+
+.nosso-local {
+    text-align: center;
+    color: #2B1B10;
+}
+
+.local-da-equipe li{
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+}
+
+.botao {
+    background-color: #9A031E;
+}
+
+.link {
+    color: #2B1B10;
+}
